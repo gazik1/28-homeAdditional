@@ -1,0 +1,25 @@
+.box-task1,.box-task2,.box-task3{
+    position: relative;
+    height: 150px;
+    border: 1px solid black;
+}
+#task1{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+}
+#task2{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+}
+body{
+    color: rgb(255, 240, 240);
+    background-image:url(./pngegg.png),url(./backgroundImage.webp);
+    background-repeat:no-repeat  ;
+    background-size: contain,cover;
+    background-attachment: fixed,local;
+    background-position:50,1px ;
+}
